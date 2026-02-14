@@ -6,7 +6,7 @@
     (click)="flip(card)"
     [class.flipped]="card.flipped || card.matched">
 
-    <img *ngIf="card.flipped || card.matched" [src]="'/photos/' + card.img">
+    <img *ngIf="card.flipped || card.matched" [src]="'photos/' + card.img">
     {{card.img}}
     <div class="back" *ngIf="!card.flipped && !card.matched">💗</div>
 
