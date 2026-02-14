@@ -1,0 +1,17 @@
+<div class="container">
+  <div class="card">
+    <h1>Hola Susi 💖</h1>
+
+    <p>
+      Me encantó tu detalle, por la distancia no era posible enviarte, comprarte o mandarte algo 🥺, mientras tu dormias me dediqué a hacerte esta pequeña sorpresa.
+    </p>
+    <p>
+      Espero te guste 🫶🏼
+    </p>
+
+    <button (click)="continuar()">
+      {{tituloContinuar}}
+    </button>
+    <button (click)="noQuiero()" *ngIf="noquiero">No quiero verlo</button>
+  </div>
+</div>
