@@ -17,7 +17,10 @@ export class MemoramaComponent {
   ) {
   }
   cards = [
-    '1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg', '6.jpg'
+    '1.jpg', '2.jpg', '3.jpg',
+    '4.jpg', '5.jpg', '6.jpg',
+    '7.jpg', '8.jpg', '9.jpg',
+    '10.jpg'
   ];
 
   deck: any[] = [];
@@ -64,7 +67,7 @@ export class MemoramaComponent {
 
       this.flipped = [];
       this.lock = false;
-    }, 700);
+    }, 2000);
   }
 
   checkWin() {
