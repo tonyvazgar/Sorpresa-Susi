@@ -7,7 +7,7 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "build:gh": "ng build --configuration production --base-href /sorpresa-susi/",
+    "build:gh": "ng build --configuration production --base-href /sorpresasusi/",
     "deploy:gh": "gh-pages -d dist/browser"
   },
   "private": true,
